@@ -44,7 +44,7 @@ bot.on('messageCreate', async (msg) => {
       }
     } else if (cmd === "ssu" || cmd === "startup") {
         try {
-            bot.createMessage('910357542943731722',"@everyone A server start up has just been announced! Come on down to Site-Delta!\nhttps://www.roblox.com/games/8020225889/Site-Delta");
+            bot.createMessage('your channel id',"A server start up has just been announced! Come on down to Site-Delta!\nhttps://www.roblox.com/games/8020225889/Site-Delta");
         } catch (err) {
             cmd_exec_err(err)
         }
